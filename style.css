@@ -1,0 +1,72 @@
+body {
+    display: none;
+    font-family: "Comic Sans MS", "Comic Sans", "Marker Felt", sans-serif;
+    background: url(bgFirst.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    display: none;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.card {   
+    width: 192px;
+    /* margin: 0 auto; */
+    margin: 1px;
+    padding: 1px;
+    float: left;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.front {
+	width: 50%;
+	height: auto;
+}
+
+.back {
+	width: 50%;
+	height: auto;
+}
+
+.noselect {
+    pointer-events: none;
+    /* opacity: 0.5; */
+}
+
+.finished {
+    display: none;
+}
+
+.top {
+    background: black;
+    opacity: 0.75;
+}
